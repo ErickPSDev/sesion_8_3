@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+}
+
+body{
+    align-items: center; /*Centra a lo alto*/
+    background-color: #141b2f;
+    color: white;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    font-family: "Roboto Mono", monospace;
+    font-size: 16px;
+    justify-content: center; 
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    width:100vh;
+}
+
+section > article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1.5rem;
+}
+
+section > article > span {
+    font-size: 0.8rem;
+    letter-spacing: 0.2rem;
+    display: flex;
+    align-items: center;
+}
+
+
+section > div {
+    border-radius: 10px;
+    background-color: #1f2b48;
+    margin: 10px 0 10px 0;
+    gap: 1rem;
+}
+
+
+#searchContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+input{
+    background-color: #1f2b48;
+    flex-grow: 1;
+    border-style: none;
+    font-size: 1rem;
+    color: whitesmoke;
+}
+
+button {
+    background-color: #197aff;
+    border: none;
+    width: 100px;
+    height: 48px;
+    border-radius: 10px;
+    color: white;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 600;
+  }
+
+#maincontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 10rem 1rem 2rem;
+
+}
+
+#maincontainer > div > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#containerjoin{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#blueText{
+    color: rgba(0, 0, 255, 0.734);
+}
+
+#userdatacard{
+    display: flex;
+    background-color: #141b2f;
+    border-radius: 15px;
+    justify-content: space-between;
+}
+
+#userdatacard > p > span{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+#belowcard{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1
+}
+
+#belowcard > span {
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+
+.iconFormat{
+    width: 20px;
+    height: 20px;
+    margin-right: 1rem;
+}
+
+body > h2{
+    display: flex;
+    float: right;
+    font-family: 'Saira Condensed', sans-serif;
+
+}
